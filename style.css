@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(244, 239, 250);
+}
+
+#summary1{
+    font-size: 30px;
+}
+
+#heading1one{
+    font-size: 50px;
+    text-decoration: purple double underline;
+}
+
+p{
+    
+    text-align: center;
+    font-style:italic;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    text-align: center;
+}
+
+#heading2one{
+    font-size: 30px;
+}
+
+button{
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(136, 30, 235)
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+#heading1two{
+    font-size: 50px;
+    text-decoration: purple double underline;
+    font-weight: bolder;
+
+}
+
+#heading2four,#heading2five,#heading2six,#heading2seven{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+iframe{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
