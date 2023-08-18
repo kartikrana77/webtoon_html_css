@@ -60,3 +60,39 @@ iframe{
     margin-right: auto;
     margin-left: auto;
 }
+
+
+#navbar{
+    background-color: rgb(123, 9, 230);
+    border: 2px solid rgb(250, 172, 3);
+    border-radius: 15px;
+    height: 50px;
+
+}
+
+
+#weebtoonbutton{
+
+    background-color: rgb(250, 162, 0);
+    color: white;
+}
+
+
+
+#logo{
+    font-size: 30px;
+    color: rgb(247, 150, 5);
+    margin-right: 300px;
+    text-align: center;
+    
+}
+
+#searchtab{
+    margin-left: 200px;
+}
+
+.nav{
+
+    margin-right: 200px;
+    font-size: 20px;
+}
