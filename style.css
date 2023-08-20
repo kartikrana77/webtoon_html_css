@@ -97,3 +97,12 @@ iframe{
     margin-right: 200px;
     font-size: 20px;
 }
+
+
+footer{
+    background-color: rgb(136, 30, 235);
+    text-align: center;
+    height: 60px;
+    font-weight: 500;
+    font-size: large;
+}
