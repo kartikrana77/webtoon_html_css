@@ -1,6 +1,72 @@
 body {
-    background-color: rgb(244, 239, 250);
+    background-image: url("https://th.bing.com/th/id/R.cb3ea77bc303d8e379aca0c0916cafac?rik=Y6DYZIYKjjA3ag&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f9%2f2%2f29702.jpg&ehk=XzBkKN86zXbM%2fLyfdNITGljJEUEH%2blam0UL%2btdeZRA8%3d&risl=&pid=ImgRaw&r=0");
+    color: white;
+    background-size: cover;
 }
+
+#navbar {
+    background-color: rgb(123, 9, 230);
+    border: 2px solid rgb(250, 172, 3);
+    height: 55px;
+    width: 1836px;
+    position: fixed;
+    top: 1px;
+    align-items: center;
+
+
+
+}
+
+
+#weebtoonbutton {
+
+    background-color: rgb(250, 162, 0);
+    color: white;
+    margin-right: 200px;
+}
+
+
+.nav {
+    font-size: 20px;
+    margin-right: 200px;
+    text-align: end;
+    font-weight: 800;
+
+
+}
+
+#logo {
+    font-size: 40px;
+    color: rgb(247, 150, 5);
+    margin-right: 300px;
+    font-weight: 900;
+    margin-right: 30px;
+
+
+
+}
+
+#searchtab {
+    height: 20px;
+    width: 300px;
+}
+
+#account {
+
+    margin-left: 300px;
+    margin-right: 0px;
+
+}
+
+#login {
+
+    background-color: rgb(255, 196, 0);
+    color: white;
+    width: 110px;
+    border-radius: 15px;
+    height: 35px;
+}
+
 
 #summary1 {
     font-size: 30px;
@@ -65,51 +131,22 @@ iframe {
 }
 
 
-#navbar {
-    background-color: rgb(123, 9, 230);
-    border: 2px solid rgb(250, 172, 3);
-    border-radius: 15px;
-    height: 55px;
-    width: 1830px;
-    position: fixed;
-    top: 1px;
-
-
-}
-
-
-#weebtoonbutton {
-
-    background-color: rgb(250, 162, 0);
-    color: white;
-}
-
-
-
-#logo {
-    font-size: 30px;
-    color: rgb(247, 150, 5);
-    margin-right: 300px;
-    text-align: center;
-    font-weight: 900;
-
-}
-
-#searchtab {
-    margin-left: 200px;
-}
-
-.nav {
-
-    margin-right: 200px;
-    font-size: 20px;
-}
 
 
 footer {
     background-color: rgb(136, 30, 235);
-    text-align: center;
-    height: 60px;
-    font-weight: 500;
-    font-size: large;
+    height: 300px;
+    font-weight: 400;
+    font-size: medium;
+    border: 2px solid rgb(255, 174, 0);
+    padding-top: 100px;
+    padding-left: 40px;
+    background-image: url("https://i.pinimg.com/originals/62/3c/b6/623cb658fb8a7a3fbddb359f93b27501.jpg");
+    background-size: cover;
+    
+    
+}
+#foot{
+    margin-left: 80px;
+    display: inline;
 }
