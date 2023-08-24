@@ -72,10 +72,65 @@ body {
     font-size: 30px;
 }
 
+
+
 #heading1one {
     font-size: 50px;
     text-decoration: purple double underline;
+    color: rgb(255, 196, 0);
 }
+
+
+#heading1three {
+    text-align: center;
+    color: rgb(255, 187, 0);
+    text-decoration: double purple underline;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+#heading1two {
+    font-size: 50px;
+    text-decoration: purple double underline;
+    font-weight: bolder;
+    color: rgb(255, 187, 0);
+
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline rgb(255, 187, 0);
+}
+
+
+
+#heading2one {
+    font-size: 30px;
+}
+
+
+
+
+#heading2two,#heading2three{
+    color: rgb(255, 187, 0);
+    text-decoration: underline double purple;
+}
+
+
+
+#heading2four,
+#heading2five,
+#heading2six,
+#heading2seven {
+    font-size: 30px;
+    text-decoration: underline rgb(255, 187, 0);
+}
+
+
+
 
 p {
 
@@ -90,13 +145,9 @@ img {
     margin-right: auto;
 }
 
-.heading {
-    text-align: center;
-}
 
-#heading2one {
-    font-size: 30px;
-}
+
+
 
 button {
     text-align: center;
@@ -109,20 +160,9 @@ a {
     color: azure;
 }
 
-#heading1two {
-    font-size: 50px;
-    text-decoration: purple double underline;
-    font-weight: bolder;
 
-}
 
-#heading2four,
-#heading2five,
-#heading2six,
-#heading2seven {
-    font-size: 30px;
-    text-decoration: underline;
-}
+
 
 iframe {
     display: block;
@@ -143,10 +183,6 @@ footer {
     padding-left: 40px;
     background-image: url("https://i.pinimg.com/originals/62/3c/b6/623cb658fb8a7a3fbddb359f93b27501.jpg");
     background-size: cover;
-    
-    
 }
-#foot{
-    margin-left: 80px;
-    display: inline;
-}
+    
+ 
