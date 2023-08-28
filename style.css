@@ -8,10 +8,14 @@ body {
     background-color: rgb(123, 9, 230);
     border: 2px solid rgb(250, 172, 3);
     height: 55px;
-    width: 1860px;
+    width: 1890px;
     position: fixed;
-    top: 1px;
+    top:1px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    align-content: center;
+
 
 
 
@@ -22,14 +26,19 @@ body {
 
     background-color: rgb(250, 162, 0);
     color: white;
-    margin-right: 200px;
+    
 }
 
 
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: -300px;
+}
+
 .nav {
     font-size: 20px;
-    margin-right: 200px;
-    text-align: end;
     font-weight: 800;
 
 
@@ -38,7 +47,6 @@ body {
 #logo {
     font-size: 40px;
     color: rgb(247, 150, 5);
-    margin-right: 300px;
     font-weight: 900;
     margin-right: 30px;
 
@@ -46,14 +54,23 @@ body {
 
 }
 
-#searchtab {
+
+
+#searchtab{
+    margin-left: -480px;
+    display: inline-block;
+
+}
+
+
+#searchbar{
     height: 20px;
     width: 300px;
 }
 
 #account {
 
-    margin-left: 300px;
+    margin-left: 00px;
     margin-right: 0px;
 
 }
@@ -65,6 +82,7 @@ body {
     width: 110px;
     border-radius: 15px;
     height: 35px;
+    margin: 10px;
 }
 
 
