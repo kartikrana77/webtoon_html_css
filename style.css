@@ -29,6 +29,15 @@ body {
     
 }
 
+#weebtoonbutton:hover{
+
+    background-color: yellow;
+    color: gray;
+    border: 2px solid snow;
+}
+
+
+
 
 #nav{
     display: flex;
@@ -44,6 +53,9 @@ body {
 
 }
 
+.nav:hover{
+    color: yellow ;
+}
 #logo {
     font-size: 40px;
     color: rgb(247, 150, 5);
@@ -84,6 +96,14 @@ body {
     height: 35px;
     margin: 10px;
 }
+
+
+#login:hover{
+    background-color: yellow;
+    border: 2px solid snow;
+    color: gray;
+}
+
 
 
 #summary1 {
@@ -172,6 +192,14 @@ button {
     font-size: 20px;
     background-color: rgb(136, 30, 235)
 }
+button:hover{
+    color: grey;
+    background-color: blue;
+    border: 2px solid snow;
+}
+
+
+
 
 a {
     text-decoration: none;
