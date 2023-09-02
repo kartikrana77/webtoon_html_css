@@ -30,7 +30,7 @@ body {
 
     background-color: rgb(250, 162, 0);
     color: white;
-    
+    transition: all 500ms ease-in-out 1ms;
 }
 
 #weebtoonbutton:hover{
@@ -38,6 +38,8 @@ body {
     background-color: yellow;
     color: gray;
     border: 2px solid snow;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #weebtoonbutton:active{
@@ -45,6 +47,7 @@ body {
     background-color: white;
     color: orangered;
     border: 2px solid black;
+    font-size: 25px;
 }
 
 
@@ -122,6 +125,7 @@ body {
     border-radius: 15px;
     height: 35px;
     margin: 10px;
+    transition: all 400ms ease-in-out 1ms;
 }
 
 
@@ -129,6 +133,8 @@ body {
     background-color: yellow;
     border: 2px solid snow;
     color: gray;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -136,6 +142,7 @@ body {
     background-color: white;
     border: 2px solid black;
     color: orangered;
+    font-size: 25px;
 }
 
 
@@ -235,15 +242,21 @@ img {
 button {
     text-align: center;
     font-size: 20px;
-    background-color: rgb(136, 30, 235)
+    background-color: rgb(136, 30, 235);
+    transition: all 400ms ease-in-out 1ms;
 }
 button:hover{
     color: grey;
     background-color: blue;
     border: 2px solid snow;
+    font-size: 30px;
 }
 
-
+button:active{
+    color:rgb(255, 174, 0);
+    background-color: snow;
+    border:purple 2px solid
+}
 
 
 a {
