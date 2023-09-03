@@ -12,7 +12,7 @@ body {
     height: 55px;
     width: 1890px;
     position: fixed;
-    top:1px;
+    top: 1px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@ body {
     transition: all 500ms ease-in-out 1ms;
 }
 
-#weebtoonbutton:hover{
+#weebtoonbutton:hover {
 
     background-color: yellow;
     color: gray;
@@ -42,7 +42,7 @@ body {
     font-size: 20px;
 }
 
-#weebtoonbutton:active{
+#weebtoonbutton:active {
 
     background-color: white;
     color: orangered;
@@ -56,7 +56,7 @@ body {
 
 
 
-#nav{
+#nav {
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -65,14 +65,15 @@ body {
 
 .nav {
     font-size: 20px;
-    font-weight: 800;}
+    font-weight: 800;
+}
 
 
-.nav:hover{
+.nav:hover {
     color: yellow;
 }
 
-.nav:active{
+.nav:active {
     color: orangered;
 }
 
@@ -92,14 +93,14 @@ body {
 
 
 
-#searchtab{
+#searchtab {
     margin-left: -480px;
     display: inline-block;
 
 }
 
 
-#searchbar{
+#searchbar {
     height: 20px;
     width: 300px;
 }
@@ -129,7 +130,7 @@ body {
 }
 
 
-#login:hover{
+#login:hover {
     background-color: yellow;
     border: 2px solid snow;
     color: gray;
@@ -138,7 +139,7 @@ body {
 }
 
 
-#login:active{
+#login:active {
     background-color: white;
     border: 2px solid black;
     color: orangered;
@@ -148,11 +149,31 @@ body {
 
 
 
+.animetrending{
+    margin-left: 60px;
 
+}
 
 
 #summary1 {
     font-size: 30px;
+}
+
+
+
+#trending{
+    color: rgb(215, 75, 228);
+    font-size: 28px;
+    font-weight: 400px;
+    line-height: 40px;
+
+}
+
+.trendname1{
+    display: inline;
+    color: rgb(255, 166, 0);
+    text-decoration: double underline purple 
+    
 }
 
 
@@ -182,7 +203,7 @@ body {
 }
 
 
-.heading{
+.heading {
     text-align: center;
     font-size: 30px;
     text-decoration: underline rgb(255, 187, 0);
@@ -197,7 +218,8 @@ body {
 
 
 
-#heading2two,#heading2three{
+#heading2two,
+#heading2three {
     color: rgb(255, 187, 0);
     text-decoration: underline double purple;
 }
@@ -223,15 +245,25 @@ p {
 }
 
 
-#image2,#image3,#image4,#image5{
-    width:360px;
+.trendimg{
+    display: inline;
+    height: 320px;
+    width: 220px;
+    margin-left: 15px;
+}
+
+#image2,
+#image3,
+#image4,
+#image5 {
+    width: 360px;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:1500px;
+    width: 1500px;
     height: 500px
 }
 
@@ -245,17 +277,18 @@ button {
     background-color: rgb(136, 30, 235);
     transition: all 400ms ease-in-out 1ms;
 }
-button:hover{
+
+button:hover {
     color: grey;
     background-color: blue;
     border: 2px solid snow;
     font-size: 30px;
 }
 
-button:active{
-    color:rgb(255, 174, 0);
+button:active {
+    color: rgb(255, 174, 0);
     background-color: snow;
-    border:purple 2px solid
+    border: purple 2px solid
 }
 
 
@@ -288,5 +321,3 @@ footer {
     background-image: url("https://i.pinimg.com/originals/62/3c/b6/623cb658fb8a7a3fbddb359f93b27501.jpg");
     background-size: cover;
 }
-    
- 
