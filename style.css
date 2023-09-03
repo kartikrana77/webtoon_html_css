@@ -316,6 +316,10 @@ p {
    margin-top: 5px;
 }
 
+.tablenew:hover{
+    background-color: rgb(154, 223, 223);
+}
+
 .newimg{
     height: 90px;
     width: 70px;
