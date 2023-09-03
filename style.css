@@ -103,6 +103,7 @@ body {
 #searchbar {
     height: 20px;
     width: 300px;
+    border-radius: 18px;
 }
 
 
@@ -245,12 +246,84 @@ p {
 }
 
 
+
+
 .trendimg{
     display: inline;
     height: 320px;
     width: 220px;
     margin-left: 15px;
+    transition: all 500ms ease-in-out 1ms;
 }
+
+.trendimg:hover{
+    height:340px;
+    width: 240px;
+    border: 3px solid rgb(255, 166, 0);
+}
+
+.trendimg:active{
+    height: 300px;
+    width: 200px;
+    border: 2px solid blue;
+}
+
+.trendname1{
+    transition: all 500ms ease-in-out 1ms;
+}
+
+.trendname1:hover{
+    font-size: 120%;
+    border: 2px solid snow;
+}
+
+
+#table{
+    background-color: rgb(58, 56, 56);
+    width: 1700px;
+    margin-left: 60px;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.table{
+    
+   width: 540px;
+    height: 900px;
+    display: inline-block;
+    background-color: gray;
+    margin-left: 20px
+    
+
+}
+
+
+.tableheading{
+    display: inline;
+    color: rgb(255, 187, 0);
+}
+
+.tablenew{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 190px;
+    font-weight: 200;
+   margin-top: 5px;
+}
+
+.newimg{
+    height: 90px;
+    width: 70px;
+    display: inline;
+
+}
+
+
 
 #image2,
 #image3,
