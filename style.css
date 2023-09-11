@@ -7,12 +7,13 @@ body {
 
 
 #navbar {
-    background-image: url(https://wallpaperbat.com/img/533262-desktop-wallpaper-glitter-fur-abstract-art-hd-image-picture-background-91f880.jpg);
-    border: 2px solid rgb(250, 172, 3);
+   /* background-image: url(https://wallpaperbat.com/img/533262-desktop-wallpaper-glitter-fur-abstract-art-hd-image-picture-background-91f880.jpg);*/
+   background-color: #0F1111;
+    border: 2px solid transparent;
     height: 55px;
     width: 1890px;
     position: fixed;
-    top: 1px;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +30,7 @@ body {
 
 #weebtoonbutton {
 
-    background-color: rgb(250, 162, 0);
+    background-color: rgb(247, 150, 5);
     color: white;
     transition: all 500ms ease-in-out 1ms;
 }
@@ -84,7 +85,7 @@ body {
 
 #logo {
     font-size: 40px;
-    color: rgb(247, 150, 5);
+    color: rgb(216, 72, 245);
     font-weight: 900;
     margin-right: 30px;
 
@@ -102,9 +103,10 @@ body {
 
 
 #searchbar {
-    height: 20px;
+    height: 25px;
     width: 300px;
     border-radius: 18px;
+    border: 2px solid gray;
 }
 
 
